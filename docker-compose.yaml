@@ -1,9 +1,0 @@
-version: "3"
-services: 
-  wordpress000ex12:
-    depends_on: 
-      - mysql-server
-    image: wordpress
-    networks: 
-      - mysql-server
-    ports: 
